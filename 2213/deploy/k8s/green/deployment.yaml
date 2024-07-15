@@ -28,7 +28,7 @@ spec:
         blue-green-no: "2"
     spec:
       nodeSelector:
-        kubernetes.io/hostname: k8s-master
+        kubernetes.io/hostname: m-k8s
       containers:
         - name: api-tester-2
           image: 1pro/api-tester:v2.0.0
